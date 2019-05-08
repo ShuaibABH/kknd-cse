@@ -2,7 +2,7 @@
 int prime(int n, int m){
 	for (int i = n; i <= m; ++i){
 		int flag = 1;
-		for (int k=2; k<i/2; k++){
+		for (int k=2; k<=i/2; k++){
 			if (i%k == 0){
 				flag = 0;
 				break;
