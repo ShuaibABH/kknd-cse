@@ -7,7 +7,7 @@ n=a;
 while(n>0)
 {r=n%10;
  d=r+(d*10);
- n=n/10
+ n=n/10;
 }
 
 printf("the reverse is %d",d);
