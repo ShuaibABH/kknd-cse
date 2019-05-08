@@ -2,7 +2,7 @@
 #include<string.h>
 void main(){
 	int i, l, j=0, w=0;
-	char st[100], ch[20], temp[20][100], rep[20], st2[20][100];
+	char st[100], ch[20], temp[20][100], rep[20];
 	printf("Enter the string:");
 	gets(st);
 	printf("Enter the word:");
