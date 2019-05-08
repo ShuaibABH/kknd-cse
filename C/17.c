@@ -4,6 +4,6 @@ void main()
 printf("Enter the number");
 scanf("%d",&n);
 for(i=1;i<=n;i++)
-	m=m*1;
+	m=m*i;
 printf("the factorial is %d",m);
 }
