@@ -7,7 +7,7 @@ n=a;
 while(n>0)
 {r=n%10;
  d=d+r;
- n=n/10
+ n=n/10;
 }
 
 printf("the sum is %d",d);
